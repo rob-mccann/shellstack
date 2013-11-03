@@ -12,7 +12,7 @@ function defaults_rails {
   DATABASE_TYPE="mysql"
   DATABASE_PASSWORD="mydbs3cr3t"
   R_ENV="production"
-  RUBY_RELEASE="p290"
+  RUBY_RELEASE="p480"
   REDIS_VERSION="2.2.4"
 }
 
