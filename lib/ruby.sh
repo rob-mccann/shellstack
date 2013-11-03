@@ -7,7 +7,7 @@
 function install_ruby
 {
     cd /usr/local/src
-    RUBY_VERSION=ruby-1.9.2-$RUBY_RELEASE
+    RUBY_VERSION=ruby-1.9.3-p448
     wget ftp://ftp.ruby-lang.org/pub/ruby/1.9/$RUBY_VERSION.tar.gz
     tar xzf $RUBY_VERSION.tar.gz
     cd $RUBY_VERSION
