@@ -18,12 +18,12 @@ function defaults_rails {
 
 function install_rails {
 	install_basic
-        install_ruby
+  install_ruby
 	install_nodejs
 	create_gemrc
 	update_rubygems
 	install_passenger_with_nginx
-        set_rails_production_environment
+  set_rails_production_environment
 	install_bundler
 	install_bluepill
 	install_redis
